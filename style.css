@@ -1,0 +1,82 @@
+.app{
+
+width:20%;
+border:1px red solid;	
+}
+.stateless,.stateful, .usingprops, .propsandstates, .propvalid, .setstate, .domupdate, .toggle, .togglenative, .forminp, .updateonclick, .ref, .keys, .router, .transition, {
+width:20%;
+border:1px solid;
+float:left;
+margin:5px,5px,5px,5px;	
+}
+.game{
+	border:1px green solid;
+}
+#main{
+	height:620px;
+	width:100%;
+	border:2px blue solid;
+	overflow:auto;
+	display:hidden;
+	float:left;
+}
+.example-appear{
+	opacity:.01;
+}
+.example-appear.example-appear-active{
+	opacity:1;
+	transition:10000ms ease-in;
+}
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+
+
